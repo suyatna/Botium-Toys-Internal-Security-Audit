@@ -11,11 +11,11 @@ The primary goal of this audit is to evaluate the current security posture and i
 
 ## Current assets
 Assets managed by the IT department at Botium Toys include:
-- On-premises equipment supporting office operations  
-- Employee devices such as desktops, laptops, smartphones, remote workstations, and supporting peripherals  
-- Retail products sold through physical stores and online platforms, including warehouse storage  
-- Business systems and services, including accounting, telecommunications, databases, security systems, e-commerce platforms, and inventory management systems  
-- Internet access and internal network infrastructure  
+- On-premises equipment supporting office operations
+- Employee devices such as desktops, laptops, smartphones, remote workstations, and supporting peripherals
+- Retail products sold through physical stores and online platforms, including warehouse storage
+- Business systems and services, including accounting, telecommunications, databases, security systems, e-commerce platforms, and inventory management systems
+- Internet access and internal network infrastructure
 
 ## Risk assessment
 
@@ -31,15 +31,22 @@ The overall risk score is 8 out of 10, indicating a high level of risk. This sco
 ### Additional risk considerations
 The potential impact of asset loss is considered moderate due to the lack of clarity regarding which assets are most critical to operations. However, the likelihood of asset compromise and regulatory penalties is high, as security controls and data protection mechanisms are insufficient.
 Specific findings include:
-- All employees have broad access to internal data, including potential access to payment data and customer PII/SPII  
-- Encryption has not been implemented to protect credit card data processed and stored within internal systems  
-- Principles of least privilege and separation of duties have not been applied  
-- A firewall is implemented and configured with appropriate security rules  
-- Antivirus software is installed and actively monitored  
-- An Intrusion Detection System (IDS) has not been implemented  
-- Disaster recovery plans and data backup mechanisms are not currently in place  
-- Data breach notification procedures for EU customers comply with the 72-hour requirement  
-- A password policy exists but does not meet modern complexity standards  
-- A centralized password management system has not been implemented  
-- Legacy systems are monitored without a defined schedule or formal procedures  
-- Physical security at stores, offices, and warehouses is adequate, supported by locks, CCTV, and fire detection and prevention systems
+- All employees have broad access to internal data, including potential access to payment data and customer PII/SPII
+- Encryption has not been implemented to protect credit card data processed and stored within internal systems
+- Principles of least privilege and separation of duties have not been applied
+- A firewall is implemented and configured with appropriate security rules
+- Antivirus software is installed and actively monitored
+- An Intrusion Detection System (IDS) has not been implemented
+- Disaster recovery plans and data backup mechanisms are not currently in place
+- Data breach notification procedures for EU customers comply with the 72-hour requirement
+- A password policy exists but does not meet modern complexity standards
+- A centralized password management system has not been implemented
+
+# Control categories
+
+## Control categories
+Cybersecurity controls are grouped into three primary categories based on their function and area of protection within an organization. This classification helps ensure that human, technological, and physical aspects of security are addressed through a defense-in-depth approach.
+The control categories used in the Botium Toys audit include:
+- Administrative / Managerial Controls
+- Technical Controls
+- Physical / Operational Controls
