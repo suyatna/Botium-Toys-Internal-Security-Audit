@@ -84,7 +84,7 @@ Bagian ini menjadi titik penting dalam cerita audit saya. Dari sini terlihat jel
 
 ## 🚧 Control categories <a name="controlcategories">
 
-Bagian ini jadi titik di mana saya mulai menyusun gambaran besar soal keamanan di Botium Toys. Saya membaginya ke tiga lapisan utama. Administrative/managerial controls, technical controls, dan Physical/operational controls. Pendekatan ini membantu saya melihat keamanan bukan cuma dari sisi sistem, tapi juga dari cara orang bekerja dan bagaimana aset dijaga.
+Bagian ini jadi titik di mana saya mulai menyusun gambaran besar soal keamanan di Botium Toys.
 
 ### Administrative/managerial controls
 
