@@ -1,4 +1,25 @@
-# Botium Toys: Scope, goals, and risk assessment report
+# Botium Toys: Internal security audit case study
+
+# Table of contents
+
+1. [Introduction](#introduction)
+2. [Scenario](#scenario)
+3. [Botium Toys: Scope, goals, and risk assessment report](#botiumtoys)
+4. [Control categories](#controlcategories)
+5. [Controls and compliance checklist](#controlandcompliance)
+6. [Conclusion](#conclusion)
+
+---
+
+# Introduction <a name="introduction">
+
+---
+
+# Scenario <a name="scenario">
+
+---
+
+# Botium Toys: Scope, goals, and risk assessment report <a name="botiumtoys">
 
 ## Scope and goals of the audit
 
@@ -31,6 +52,7 @@ The overall risk score is 8 out of 10, indicating a high level of risk. This sco
 
 ### Additional risk considerations
 The potential impact of asset loss is considered moderate due to the lack of clarity regarding which assets are most critical to operations. However, the likelihood of asset compromise and regulatory penalties is high, as security controls and data protection mechanisms are insufficient.
+
 Specific findings include:
 - All employees have broad access to internal data, including potential access to payment data and customer PII/SPII
 - Encryption has not been implemented to protect credit card data processed and stored within internal systems
@@ -45,11 +67,14 @@ Specific findings include:
 
 ---
 
-# Control Categories
+# Control Categories <a name="controlcategories">
 
 ## Control Categories
 Cybersecurity controls are grouped into three primary categories based on their function and area of protection within an organization. This classification helps ensure that human, technological, and physical aspects of security are addressed through a defense-in-depth approach.
+
 The control categories used in the Botium Toys audit include:
 - Administrative / Managerial Controls
 - Technical Controls
 - Physical / Operational Controls
+
+Each control is also classified by type to describe its role in preventing, detecting, responding to, or discouraging security incidents.
