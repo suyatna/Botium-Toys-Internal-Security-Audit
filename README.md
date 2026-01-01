@@ -87,26 +87,41 @@ Administrative controls focus on the human element of cybersecurity. These contr
 
 Administrative controls are typically policy-driven, but their effectiveness often relies on the support of technical and physical controls during implementation.
 
-|Control name                                     |Control types  |Control purpose                                                                                            |
-|-------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------|
-|Least privilege                                  |Preventative   |Reduce risk and overall impact of malicious insiders or compromised accounts                               |
-|Disaster recovery plans                          |Corrective     |Provide business continuity following a security incident                                                  |
-|Password policies                                |Preventative   |Reduce the likelihood of account compromise through brute force or dictionary attacks                      |
-|Access control policies                          |Preventative   |Strengthen confidentiality and integrity by defining access and modification rights                        |
-|Account management policies                      |Preventative   |Manage account lifecycles, reduce attack surface, and limit risks from default or former employee accounts |
-|Account management policies                      |Preventative   |Reduce the risk of abuse by separating critical responsibilities across roles                              |
+|Control name                 |Control types  |Control purpose                                                                                            |
+|-----------------------------|---------------|-----------------------------------------------------------------------------------------------------------|
+|Least privilege              |Preventative   |Reduce risk and overall impact of malicious insiders or compromised accounts                               |
+|Disaster recovery plans      |Corrective     |Provide business continuity following a security incident                                                  |
+|Password policies            |Preventative   |Reduce the likelihood of account compromise through brute force or dictionary attacks                      |
+|Access control policies      |Preventative   |Strengthen confidentiality and integrity by defining access and modification rights                        |
+|Account management policies  |Preventative   |Manage account lifecycles, reduce attack surface, and limit risks from default or former employee accounts |
+|Account management policies  |Preventative   |Reduce the risk of abuse by separating critical responsibilities across roles                              |
 
 ## Technical controls
 Technical controls consist of technology-based solutions used to protect systems, networks, and data from digital threats. These controls play a direct role in preventing, detecting, and responding to security incidents.
 
 The implementation of technical controls enables organizations to achieve security objectives in a consistent and measurable manner.
 
-|Control name                                     |Control types  |Control purpose                                                                                            |
-|-------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------|
-|Firewall                                         |Preventative   |Filter unwanted or malicious traffic entering the network                                                  |
-|IDS / IPS                                        |Detective      |Detect and prevent anomalous traffic based on defined rules or signatures                                  |
-|Encryption                                       |Deterrent      |Provide confidentiality for sensitive information                                                          |
-|Backups                                          |Corrective     |Restore systems and data after an incident                                                                 |
-|Password management                              |Preventative   |Reduce password fatigue and improve policy compliance                                                      |
-|Antivirus (AV) software                          |Corrective     |Detect and isolate known threats                                                                           |
-|Manual Monitoring, Maintenance, and Intervention |Preventative   |Identify and manage risks in legacy systems that lack automated updates                                    |
+|Control name                                     |Control types  |Control purpose                                                            |
+|-------------------------------------------------|---------------|---------------------------------------------------------------------------|
+|Firewall                                         |Preventative   |Filter unwanted or malicious traffic entering the network                  |
+|IDS / IPS                                        |Detective      |Detect and prevent anomalous traffic based on defined rules or signatures  |
+|Encryption                                       |Deterrent      |Provide confidentiality for sensitive information                          |
+|Backups                                          |Corrective     |Restore systems and data after an incident                                 |
+|Password management                              |Preventative   |Reduce password fatigue and improve policy compliance                      |
+|Antivirus (AV) software                          |Corrective     |Detect and isolate known threats                                           |
+|Manual monitoring, maintenance, and intervention |Preventative   |Identify and manage risks in legacy systems that lack automated updates    |
+
+## Physical / operational controls
+Physical controls are used to restrict unauthorized physical access to organizational assets. These controls protect facilities, infrastructure, and inventory from non-digital threats.
+
+Physical security serves as a critical layer in safeguarding IT assets and supporting business operations.
+
+|Control name                                     |Control types             |Control purpose                                                                   |
+|-------------------------------------------------|--------------------------|----------------------------------------------------------------------------------|
+|Time-controlled safe                             |Deterrent                 |Reduce attack surface and limit the impact of physical threat                     |
+|Adequate lighting                                |Deterrent                 |Deter threats by eliminating concealed areas                                      |
+|Closed-circuit television (CCTV)                 |Preventative / detective  |Deter incidents and provide evidence after events occur                           |
+|Locking cabinets (network equipment)             |Preventative              |Prevent unauthorized physical access to network infrastructure                    |
+|Alarm service provider signage                   |Deterrent                 |Discourage attacks by increasing perceived risk                                   |
+|Locks                                            |Preventative / deterrent  |Prevent and deter unauthorized access to physical assets                          |
+|Fire detection and prevention systems            |Detective / preventative  |Detect fires and prevent damage to physical assets such as inventory and servers  |
