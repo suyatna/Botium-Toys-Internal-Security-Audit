@@ -11,12 +11,15 @@
 
 # Introduction <a name="introduction">
 
-This case study is part of my cybersecurity portfolio and focuses on an internal security audit assessment. Botium Toys, a fictitious toy retail company, is used as a realistic scenario to simulate an internal cybersecurity audit aligned with current industry practices. The study was completed as part of the Google Cybersecurity Professional Certificate on Coursera, within the Play It Safe: Manage Security Risks course.
-
 The audit evaluates Botium Toys’ cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
+
+---
 
 # Scenario <a name="scenario">
 
+The audit evaluates Botium Toys’ cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
+
+---
 
 # Botium Toys: Scope, goals, and risk assessment report <a name="botiumtoys">
 
