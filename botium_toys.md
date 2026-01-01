@@ -1,6 +1,6 @@
 # Botium Toys: Internal security audit case study
 
-# Table of contents
+## Table of contents
 
 1. [Introduction](#introduction)
 2. [Scenario](#scenario)
@@ -11,7 +11,7 @@
 
 # I. Introduction <a name="introduction">
 
-The audit evaluates Botium Toys’ cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
+The audit evaluates Botium Toys cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
 
 # II. Scenario <a name="scenario">
 
@@ -72,14 +72,14 @@ Specific findings include:
 
 # IV. Control categories <a name="controlcategories">
 
-## 4.1. Control categories
+## 4.1. Overview
  
 Cybersecurity controls are grouped into three primary categories based on their function and area of protection within an organization. This classification helps ensure that human, technological, and physical aspects of security are addressed through a defense-in-depth approach.
 
 The control categories used in the Botium Toys audit include:
-- Administrative / managerial controls
+- Administrative/managerial controls
 - Technical controls
-- Physical / operational controls
+- Physical/operational controls
 
 Each control is also classified by type to describe its role in preventing, detecting, responding to, or discouraging security incidents.
 
@@ -92,7 +92,7 @@ The control types referenced in this audit include:
 
 These control types work together to protect organizational assets through layered security.
 
-### a. Administrative / managerial controls
+### a. Administrative/managerial controls
 Administrative controls focus on the human element of cybersecurity. These controls include policies, procedures, and internal rules that define how data is managed and how employee responsibilities are assigned in relation to protecting the organization.
 
 Administrative controls are typically policy-driven, but their effectiveness often relies on the support of technical and physical controls during implementation.
@@ -121,17 +121,23 @@ The implementation of technical controls enables organizations to achieve securi
 |Antivirus (AV) software                          |Corrective     |Detect and isolate known threats                                           |
 |Manual monitoring, maintenance, and intervention |Preventative   |Identify and manage risks in legacy systems that lack automated updates    |
 
-### c. Physical / operational controls
+### c. Physical/operational controls
 Physical controls are used to restrict unauthorized physical access to organizational assets. These controls protect facilities, infrastructure, and inventory from non-digital threats.
 
 Physical security serves as a critical layer in safeguarding IT assets and supporting business operations.
 
-|Control name                                     |Control types            |Control purpose                                                                   |
-|-------------------------------------------------|-------------------------|----------------------------------------------------------------------------------|
-|Time-controlled safe                             |Deterrent                |Reduce attack surface and limit the impact of physical threat                     |
-|Adequate lighting                                |Deterrent                |Deter threats by eliminating concealed areas                                      |
-|Closed-circuit television (CCTV)                 |Preventative, detective  |Deter incidents and provide evidence after events occur                           |
-|Locking cabinets (network equipment)             |Preventative             |Prevent unauthorized physical access to network infrastructure                    |
-|Alarm service provider signage                   |Deterrent                |Discourage attacks by increasing perceived risk                                   |
-|Locks                                            |Preventative, deterrent  |Prevent and deter unauthorized access to physical assets                          |
-|Fire detection and prevention systems            |Detective, preventative  |Detect fires and prevent damage to physical assets such as inventory and servers  |
+|Control name                                     |Control types           |Control purpose                                                                   |
+|-------------------------------------------------|------------------------|----------------------------------------------------------------------------------|
+|Time-controlled safe                             |Deterrent               |Reduce attack surface and limit the impact of physical threat                     |
+|Adequate lighting                                |Deterrent               |Deter threats by eliminating concealed areas                                      |
+|Closed-circuit television (CCTV)                 |Preventative/detective  |Deter incidents and provide evidence after events occur                           |
+|Locking cabinets (network equipment)             |Preventative            |Prevent unauthorized physical access to network infrastructure                    |
+|Alarm service provider signage                   |Deterrent               |Discourage attacks by increasing perceived risk                                   |
+|Locks                                            |Preventative/deterrent  |Prevent and deter unauthorized access to physical assets                          |
+|Fire detection and prevention systems            |Detective/preventative  |Detect fires and prevent damage to physical assets such as inventory and servers  |
+
+# V. Controls and compliance checklist <a name="controlandcompliance">
+
+## 5.1. Overview
+ 
+Cybersecurity controls are grouped into three primary categories based on their function and area of protection within an organization. This classification helps ensure that human, technological, and physical aspects of security are addressed through a defense-in-depth approach.
