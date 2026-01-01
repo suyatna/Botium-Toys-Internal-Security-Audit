@@ -9,15 +9,11 @@
 5. [Controls and compliance checklist](#controlandcompliance)
 6. [Conclusion](#conclusion)
 
----
-
 # Introduction <a name="introduction">
 
----
 
 # Scenario <a name="scenario">
 
----
 
 # Botium Toys: Scope, goals, and risk assessment report <a name="botiumtoys">
 
@@ -65,16 +61,52 @@ Specific findings include:
 - A password policy exists but does not meet modern complexity standards
 - A centralized password management system has not been implemented
 
----
+# Control categories <a name="controlcategories">
 
-# Control Categories <a name="controlcategories">
-
-## Control Categories
+## Control categories
 Cybersecurity controls are grouped into three primary categories based on their function and area of protection within an organization. This classification helps ensure that human, technological, and physical aspects of security are addressed through a defense-in-depth approach.
 
 The control categories used in the Botium Toys audit include:
-- Administrative / Managerial Controls
-- Technical Controls
-- Physical / Operational Controls
+- Administrative / managerial controls
+- Technical controls
+- Physical / operational controls
 
 Each control is also classified by type to describe its role in preventing, detecting, responding to, or discouraging security incidents.
+
+## Control types
+The control types referenced in this audit include:
+- Preventative
+- Corrective
+- Detective
+- Deterrent
+
+These control types work together to protect organizational assets through layered security.
+
+## Administrative / managerial controls
+Administrative controls focus on the human element of cybersecurity. These controls include policies, procedures, and internal rules that define how data is managed and how employee responsibilities are assigned in relation to protecting the organization.
+
+Administrative controls are typically policy-driven, but their effectiveness often relies on the support of technical and physical controls during implementation.
+
+|Control name                 |Control types  |Control purpose                                                                                             |
+|-----------------------------|---------------|------------------------------------------------------------------------------------------------------------|
+|Least privilege              |Preventative   |Reduce risk and overall impact of malicious insiders or compromised accounts                                |
+|Disaster recovery plans      |Corrective     |Provide business continuity following a security incident                                                   |
+|Password policies            |Preventative   |Reduce the likelihood of account compromise through brute force or dictionary attacks                       |
+|Access control policies      |Preventative   |Strengthen confidentiality and integrity by defining access and modification rights                         |
+|Account management policies  |Preventative   |Manage account lifecycles, reduce attack surface, and limit risks from default or former employee accounts  |
+|Account management policies  |Preventative   |Reduce the risk of abuse by separating critical responsibilities across roles                               |
+
+## Technical controls
+Technical controls consist of technology-based solutions used to protect systems, networks, and data from digital threats. These controls play a direct role in preventing, detecting, and responding to security incidents.
+
+The implementation of technical controls enables organizations to achieve security objectives in a consistent and measurable manner.
+
+|Control name                                      |Control types  |Control purpose                                                                        |
+|--------------------------------------------------|---------------|---------------------------------------------------------------------------------------|
+|Firewall                                          |Preventative   |Filter unwanted or malicious traffic entering the network                              |
+|IDS / IPS                                         |Detective      |Detect and prevent anomalous traffic based on defined rules or signatures              |
+|Encryption                                        |Deterrent      |Provide confidentiality for sensitive information                                      |
+|Backups                                           |Corrective     |Restore systems and data after an incident                                             |
+|Password management                               |Preventative   |Reduce password fatigue and improve policy compliance                                  |
+|Antivirus (AV) software                           |Corrective     |Detect and isolate known threats                                                       |
+|Manual Monitoring, Maintenance, and Intervention  |Preventative   |Identify and manage risks in legacy systems that lack automated updates                |
