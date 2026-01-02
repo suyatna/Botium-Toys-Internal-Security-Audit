@@ -145,7 +145,7 @@ Lapisan ini melihat bagaimana aset dijaga secara langsung di lingkungan kerja.
  
 Pada tahap ini, saya mulai membandingkan kontrol keamanan yang ideal dengan kondisi nyata di Botium Toys. Proses ini membantu melihat bagian yang sudah berjalan dengan baik dan bagian yang masih memiliki celah.
 
-|Kontrol|Ya|Tidak|
+|Kontrol|Sudah|Belum|
 |---|---|---|
 |Least privilege| |x|
 |Rencana pemulihan bencana| |x|
