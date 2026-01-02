@@ -78,8 +78,6 @@ Temuan spesifik yang saya catat:
 - Kebijakan kata sandi sudah ada, tapi belum mengikuti standar kompleksitas saat ini
 - Sistem manajemen kata sandi terpusat belum digunakan
 
-Bagian ini menjadi titik penting dalam cerita audit saya. Dari sini terlihat jelas area mana yang perlu dibenahi lebih dulu supaya keamanan Botium Toys bisa meningkat.
-
 ---
 
 ## 🚧 Control categories <a name="controlcategories">
