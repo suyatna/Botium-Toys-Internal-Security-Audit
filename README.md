@@ -142,7 +142,7 @@ Di sini, saya mulai mencocokkan kontrol keamanan yang seharusnya ada dengan kond
 |Password management| |x|
 |Antivirus (AV) software|x| |
 |Manual monitoring, maintenance, and intervention|x| |
-|Time-controlled safe|x| |
+|Time-controlled safe| |x|
 |Adequate lighting|x| |
 |Closed-circuit television (CCTV)|x| |
 |Locking cabinets (network equipment)|x| |
