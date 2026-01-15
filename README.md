@@ -1,4 +1,4 @@
-# Botium Toys internal security audit
+# Internal cybersecurity audit analysis at Botium Toys
 
 ## 📑 Table of contents
 
