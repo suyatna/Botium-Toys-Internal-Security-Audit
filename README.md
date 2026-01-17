@@ -1,6 +1,6 @@
 # Internal cybersecurity audit analysis at Botium Toys
 
-## 📑 Table of contents
+## 📌 Table of contents
 
 1. [Overview](#overview)
 2. [Background and audit scenario](#scenario)
